@@ -1,17 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
-<<<<<<< HEAD
 #include <stdio.h>
 
-
 /**
- * main - entry point
+ *main - entry point
  *
-*description:false or true
-*return (success)
-*/
+ *description:false or true
+ *return: alwys 0 (success)
+**/
+
+
 int main(void)
->>>>>>> 53c298dc053f8e8391eb70a4f2ced4e37d672dd2
+
 {
 	int n;
 
@@ -19,8 +19,6 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-=======
-<<<<<<< HEAD
 		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
@@ -31,5 +29,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	return(0);
+	return (0);
 }
