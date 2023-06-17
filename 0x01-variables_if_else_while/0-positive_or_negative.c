@@ -1,6 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
+<<<<<<< HEAD
 #include <stdio.h>
+
+
 /**
  * main - entry point
  *
@@ -8,6 +11,7 @@
 *return (success)
 */
 int main(void)
+>>>>>>> 53c298dc053f8e8391eb70a4f2ced4e37d672dd2
 {
 	int n;
 
@@ -15,15 +19,17 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%i is positive\n", n);
+=======
+<<<<<<< HEAD
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%i is zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("%i is negative\n", n);
+		printf("%d is negative\n", n);
 	}
-	return (0);
+	return(0);
 }
